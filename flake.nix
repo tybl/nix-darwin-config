@@ -16,18 +16,18 @@
 
       # List packages installed in system profile. To search by name, run:
       # $ nix-env -qaP | grep wget
-      environment.systemPackages =
-        [
-          pkgs.alacritty
-          pkgs.btop
-          pkgs.git
-          pkgs.mkalias
-          pkgs.neovim
-          pkgs.obsidian
-          pkgs.ripgrep
-          pkgs.rustup
-          pkgs.tmux
-        ];
+      environment.systemPackages = [
+        pkgs.alacritty
+        pkgs.btop
+        pkgs.git
+        pkgs.mkalias
+        pkgs.neovim
+        pkgs.obsidian
+        pkgs.podman
+        pkgs.ripgrep
+        pkgs.rustup
+        pkgs.tmux
+      ];
 
       homebrew = {
         enable = true;
@@ -40,6 +40,7 @@
         masApps = {
           "BitWarden" = 1352778147;
           "TickTick" = 966085870;
+          "UTM" = 1538878817;
         };
         onActivation.cleanup = "zap";
         onActivation.autoUpdate = true;
