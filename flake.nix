@@ -100,7 +100,7 @@
   {
     # Build darwin flake using:
     # $ darwin-rebuild build --flake .#simple
-    darwinConfigurations."oras" = nix-darwin.lib.darwinSystem {
+    darwinConfigurations."zirgas" = nix-darwin.lib.darwinSystem {
       modules = [
         configuration
         nix-homebrew.darwinModules.nix-homebrew {
@@ -112,6 +112,6 @@
     };
 
     # Expose the package set, including overlays, for convenience.
-    darwinPackages = self.darwinConfigurations."oras".pkgs;
+    darwinPackages = self.darwinConfigurations."zirgas".pkgs;
   };
 }
