@@ -21,7 +21,6 @@
         pkgs.btop
         pkgs.git
         pkgs.mkalias
-        pkgs.neovim
         pkgs.obsidian
         pkgs.podman
         pkgs.ripgrep
@@ -35,6 +34,7 @@
           "cmake"
           "conan"
           "mas"
+          "neovim"
         ];
         casks = [
           "firefox"
