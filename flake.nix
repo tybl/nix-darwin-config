@@ -32,6 +32,8 @@
       homebrew = {
         enable = true;
         brews = [
+          "cmake"
+          "conan"
           "mas"
         ];
         casks = [
