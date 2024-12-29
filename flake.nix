@@ -38,6 +38,7 @@
         ];
         casks = [
           "firefox"
+          "ghostty"
         ];
         masApps = {
           "BitWarden" = 1352778147;
