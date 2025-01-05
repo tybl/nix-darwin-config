@@ -23,6 +23,7 @@
         pkgs.mkalias
         pkgs.obsidian
         pkgs.podman
+        pkgs.protobuf
         pkgs.ripgrep
         pkgs.rustup
         pkgs.tmux
