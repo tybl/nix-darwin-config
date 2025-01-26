@@ -29,8 +29,8 @@
         pkgs.tmux
       ];
 
+      homebrew.enable = true;
       homebrew = {
-        enable = true;
         brews = [
           "cmake"
           "conan"
@@ -76,9 +76,7 @@
         done
       '';
 
-      system.defaults = {
-        dock.autohide = true;
-      };
+      system.defaults.dock.autohide = true;
 
       # Auto upgrade nix package and the daemon service.
       services.nix-daemon.enable = true;
