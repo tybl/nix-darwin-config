@@ -19,7 +19,10 @@
       environment.systemPackages = [
         pkgs.alacritty
         pkgs.btop
+        pkgs.fd
+        pkgs.fzf
         pkgs.git
+        pkgs.lazygit
         pkgs.mkalias
         pkgs.obsidian
         pkgs.podman
