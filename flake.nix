@@ -22,6 +22,7 @@
         pkgs.fd
         pkgs.fzf
         pkgs.git
+        pkgs.jujutsu
         pkgs.lazygit
         pkgs.mkalias
         pkgs.obsidian
