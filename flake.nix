@@ -46,6 +46,7 @@
           "ghostty"
           "ollama"
           "raycast"
+          "zen-browser"
         ];
         masApps = {
           "BitWarden" = 1352778147;
