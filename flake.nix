@@ -44,6 +44,7 @@
         casks = [
           "firefox"
           "ghostty"
+          "lm-studio"
           "ollama"
           "raycast"
           "zen-browser"
