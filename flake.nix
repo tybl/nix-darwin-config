@@ -47,6 +47,7 @@
           "lm-studio"
           "ollama"
           "raycast"
+          "visual-studio-code"
           "zen-browser"
         ];
         masApps = {
