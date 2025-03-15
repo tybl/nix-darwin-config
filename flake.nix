@@ -42,6 +42,7 @@
           "neovim"
         ];
         casks = [
+          "anythingllm"
           "firefox"
           "ghostty"
           "lm-studio"
