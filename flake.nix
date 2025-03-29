@@ -53,8 +53,8 @@
         ];
         masApps = {
           "BitWarden" = 1352778147;
-          "TickTick" = 966085870;
-          "UTM" = 1538878817;
+          #"TickTick" = 966085870;
+          #"UTM" = 1538878817;
         };
         onActivation.cleanup = "zap";
         onActivation.autoUpdate = true;
