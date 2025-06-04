@@ -39,6 +39,7 @@
           "conan"
           "mas"
           "neovim"
+          "pkgconf"
         ];
         casks = [
           "firefox"
