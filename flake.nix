@@ -42,6 +42,7 @@
           "pkgconf"
         ];
         casks = [
+          "balenaetcher"
           "firefox"
           "ghostty"
           "steam"
