@@ -24,7 +24,6 @@
         pkgs.git
         pkgs.lazygit
         pkgs.mkalias
-        pkgs.obsidian
         pkgs.podman
         pkgs.protobuf
         pkgs.ripgrep
@@ -45,6 +44,7 @@
           "balenaetcher"
           "firefox"
           "ghostty"
+          "obsidian"
           "steam"
           "visual-studio-code"
           "zen-browser"
