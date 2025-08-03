@@ -21,7 +21,6 @@
         pkgs.btop
         pkgs.fd
         pkgs.fzf
-        pkgs.git
         pkgs.lazygit
         pkgs.mkalias
         pkgs.podman
@@ -36,6 +35,7 @@
         brews = [
           "cmake"
           "conan"
+          "git-lfs"
           "mas"
           "neovim"
           "pkgconf"
